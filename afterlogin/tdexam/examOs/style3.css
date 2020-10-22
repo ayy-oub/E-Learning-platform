@@ -1,0 +1,1283 @@
+
+body {
+	background-image: url("groupe-sociatex-cloud-computing-connaitre-risques-et-savoir-l-utiliser_0.jpg");
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+	opacity: 1;
+}	
+/*-----cr-----*/
+.cour1 {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour1:hover > .txte {
+	width: 180px;
+	padding: 0 6px;
+}	
+.cour1:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
+.cour2 {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour2:hover > .txte {
+	width: 80px;
+	padding: 0 6px;
+}	
+.cour2:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
+.cour3 {
+	position: absolute;
+	top: 30%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour3:hover > .txte {
+	width: 240px;
+	padding: 0 6px;
+}	
+.cour3:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
+.cour4 {
+	position: absolute;
+	top: 30%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour4:hover > .txte {
+	width: 170px;
+	padding: 0 6px;
+}	
+.cour4:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
+.cour5 {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour5:hover > .txte {
+	width: 260px;
+	padding: 0 6px;
+}	
+.cour5:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
+.book-btn{
+	color: #000080	;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white	;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+.txte {
+	border: none;
+	background:none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+	text-decoration: none;
+	overflow: hidden;
+
+}
+/*-------------logo-----*/
+
+/*------searchbox-------*/
+.search-box {
+	position: absolute;
+	top: 12%;
+	left: 19%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	opacity: 0.8;
+}
+.search-box:hover > .search-txt {
+	width: 240px;
+	padding: 0 6px;
+	opacity: 1;
+}
+.search-box:hover > .search-btn {
+	background: black;
+	color: #ffebcd;
+	opacity: 1;
+}
+.search-btn{
+	color: #000080;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+
+}
+.search-txt {
+	border: none;
+	background:none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+/*--------------boxreg-------------*/
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,53,144,1) 43%, rgba(9,21,121,0.6727065826330532) 56%, rgba(0,212,255,1) 100%);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+	opacity: 0.7;
+	bottom: -15px;
+	height: 470px;
+}
+.box h2 {
+	margin: 0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}	
+.box .inputbox {
+	position: relative;
+	color: #fff;
+} 
+.box .inputbox input {
+	width: 100%;
+	padding: 10px 0 ;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border:none;
+	border-bottom: 1px solid #fff;
+	outline: none;	
+	background: transparent;
+
+}
+.box .inputbox label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px:
+	color:#00FFFF;
+	pointer-events: none;
+	transition: .5s;
+	opacity: 1;
+
+}
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label
+ {
+	top: -18px;
+	left: 0;
+	color: #00FFFF;
+	font-size: 12px;
+}
+/*--------boxlog-------*/
+.boxlog {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,53,144,1) 43%, rgba(9,21,121,0.6727065826330532) 56%, rgba(0,212,255,1) 100%);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+	opacity: 0.7;
+	height: 350px;
+}
+.boxlog h2 {
+	margin: 0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}	
+.boxlog .inputbox {
+	position: relative;
+	color: #fff;
+} 
+.boxlog .inputbox input {
+	width: 100%;
+	padding: 10px 0 ;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border:none;
+	border-bottom: 1px solid #fff;
+	outline: none;	
+	background: transparent;
+
+}
+.boxlog .inputbox label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px:
+	color:#00FFFF;
+	pointer-events: none;
+	transition: .5s;
+	opacity: 1;
+
+}
+.boxlog .inputbox input:focus ~ label,
+.boxlog .inputbox input:valid ~ label
+ {
+	top: -18px;
+	left: 0;
+	color: #00FFFF;
+	font-size: 12px;
+}
+/*------button----*/
+.submit {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	padding: 30px 60px;
+	font-size: 30px;
+	text-decoration: none;
+	box-shadow: 0 20px 50px rgba(0,0,0,.5);
+	width: 400px;
+	text-align: center;
+	overflow: hidden;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,53,144,1) 43%, rgba(9,21,121,0.6727065826330532) 56%, rgba(0,212,255,1) 100%);
+	opacity: 0.8;
+}
+.submit:hover {
+	cursor: pointer;
+}
+.submit::before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	width: 50%;
+	background: rgba(255,255,255,0.05);
+}
+.submit span:nth-child(1){
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: white;
+	animation: animate1 2s linear infinite;
+}
+@keyframes animate1 {
+	0%
+	{
+		transform: translateX(-100%);
+	}
+	100%
+	{
+		transform: translateX(100%);
+	}
+}
+.submit span:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: white;
+	animation: animate2 2s linear infinite;
+	animation-delay: 1s;
+}	
+@keyframes animate2 {
+	0%
+	{
+		transform: translateY(-100%);
+	}
+	100%
+	{
+		transform: translateY(100%);
+	}
+}
+.submit span:nth-child(3){
+	position: absolute;
+	right: 0;
+	bottom:	0;
+	width: 100%;
+	height: 2px;
+	background: white;
+	animation: animate3 2s linear infinite;
+}
+@keyframes animate3 {
+	0%
+	{
+		transform: translateX(100%);
+	}
+	100%
+	{
+		transform: translateX(-100%);
+	}
+}
+.submit span:nth-child(4){
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: white;
+	animation: animate4 2s linear infinite ;
+	animation-delay: 1s;
+}
+@keyframes animate4 {
+	0%
+	{
+		transform: translateY(100%);
+	}
+	100%
+	{
+		transform: translateY(-100%);
+	}
+}
+/*---------choosecourse------*/
+#submit1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	padding: 30px 60px;
+	font-size: 30px;
+	text-decoration: none;
+	box-shadow: 0 20px 50px rgba(0,0,0,.5);
+	width: 270px;
+	text-align: center;
+	overflow: hidden;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,53,144,1) 43%, rgba(9,21,121,0.6727065826330532) 56%, rgba(0,212,255,1) 100%);
+	opacity: 0.8;
+	
+}
+#submit1:before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	width: 50%;
+	background: rgba(255,255,255,0.05);
+}
+#submit1 span:nth-child(1){
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: white;
+	animation: animate1 2s linear infinite;
+}
+@keyframes animate1 {
+	0%
+	{
+		transform: translateX(-100%);
+	}
+	100%
+	{
+		transform: translateX(100%);
+	}
+}
+#submit1 span:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: white;
+	animation: animate2 2s linear infinite;
+	animation-delay: 1s;
+}	
+@keyframes animate2 {
+	0%
+	{
+		transform: translateY(-100%);
+	}
+	100%
+	{
+		transform: translateY(100%);
+	}
+}
+#submit1 span:nth-child(3){
+	position: absolute;
+	right: 0;
+	bottom:	0;
+	width: 100%;
+	height: 2px;
+	background: white;
+	animation: animate3 2s linear infinite;
+}
+@keyframes animate3 {
+	0%
+	{
+		transform: translateX(100%);
+	}
+	100%
+	{
+		transform: translateX(-100%);
+	}
+}
+#submit1 span:nth-child(4){
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: white;
+	animation: animate4 2s linear infinite ;
+	animation-delay: 1s;
+}
+@keyframes animate4 {
+	0%
+	{
+		transform: translateY(100%);
+	}
+	100%
+	{
+		transform: translateY(-100%);
+	}
+}
+/*-----menustyling------------*/
+.menu {
+	
+	top: 0;
+	margin: 0;
+	border-top: 0;
+	z-index: 100; 
+	box-shadow: -1px 8px 2px grey;
+	width: 70%;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,53,144,1) 43%, rgba(9,21,121,0.6727065826330532) 56%, rgba(0,212,255,1) 100%);
+	color: #fff;
+	height: 60px;
+	float: right;
+	transform: skewX(20deg);
+	opacity: 0.9;
+}
+.menu > ul  {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style-type: none;	
+	opacity: 1;
+}
+.menu > ul  >li {
+	float: left;
+	margin-right: 30px;
+	opacity: 1.5;
+}
+.menu-item {
+	display: inline-block;
+	color: #fff;
+	float: right;
+	padding: 10px 20px;
+	line-height: 30px;
+	text-decoration: none;
+	opacity: 1.5;
+	
+}
+.menu-reg {
+	display: inline-block;
+	color: #fff;
+	float: right;
+	padding: 10px 20px; 
+	line-height: 30px;
+	height: 30px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	margin-top: 6px;
+}	
+.menu-log {
+	display: inline-block;
+	color: #fff;
+	float: right;
+	padding: 10px 20px; 
+	line-height: 30px;
+	height: 30px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	margin-top: 6px;
+	border-radius: 10px;
+}
+.menu-log:hover {
+	background-color: red;
+	box-shadow: 5px 5px 5px #888;
+}
+.menu-reg:hover {
+	background-color: red;
+	color: black;
+	box-shadow: 5px 5px 5px #888;
+}
+.menu-item:hover {
+	background-color: blue;
+	color: #fff;
+}
+/*-------about cloud--------*/
+#txt{
+
+	color: red;
+	padding-top: 140px;
+}			
+/*---------------reseau de communication-----------*/
+.cour {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	/*---------------changement khadija-----------*/
+	width: 30%;
+	border-radius: 40px;
+	padding: 10px;
+
+}
+.book-bt{
+	color: white;	;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: black	;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+.text {
+	border: none;
+	background:none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+		/*---------------changement khadija-----------*/
+	width: 300px;
+	text-decoration: none;
+	overflow: hidden;
+}
+.prog {
+	position: absolute;
+	top: 90%;
+	left: 15%;
+	width: 70%;
+	color:#48d1cc; 
+}	
+ .question {
+ 	height: 10px;
+	color: white;
+	animation: an1 3s ;
+	position: absolute;
+		/*---------------changement khadija-----------*/
+	top: 40%;
+	left: 5%;
+	font-size: 20px;
+	width: 47%;
+}
+@keyframes an1 {
+	0%
+	{
+		transform: translateX(-100%);
+	}
+	100%
+	{
+		transform: translateX(8%);
+	}
+}
+/*----------------reponse-------------------*/
+/*----------------mthq2-------------------*/
+
+#btn02{
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn02:hover {
+	cursor: pointer;
+}
+#btn02:active{
+	background: blue	;
+	}
+#btn12{
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 60%
+}
+#btn12:hover {
+	cursor: pointer;
+}	
+#btn12:active{
+	background: blue	;
+	}
+
+#btn22{
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn22:hover {
+	cursor: pointer;
+}
+#btn22:active{
+	background: blue;
+	}
+
+#btn32 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 70%;
+	left: 60%
+}
+#btn32:hover {
+	cursor: pointer;
+}
+#btn32:active{
+	background: blue	;
+	}
+/*----------------mthq3-------------------*/
+#btn03 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn03:hover {
+	cursor: pointer;
+}
+#btn03:active{
+	background: blue	;
+	}
+#btn13 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 60%
+}
+#btn13:hover {
+	cursor: pointer;
+}	
+#btn13:active{
+	background: blue	;
+	}
+
+#btn23 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn23:hover {
+	cursor: pointer;
+}
+#btn23:active{
+	background: blue;
+	}
+
+#btn33 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 70%;
+	left: 60%
+}
+#btn33:hover {
+	cursor: pointer;
+}
+#btn33:active{
+	background: blue	;
+	}
+/*----------------mthq4-------------------*/
+#btn04 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn04:hover {
+	cursor: pointer;
+}
+#btn04:active{
+	background: blue	;
+	}
+
+
+#btn24 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn24:hover {
+	cursor: pointer;
+}
+#btn24:active{
+	background: blue;
+	}
+
+
+	/*----------------mthq5-------------------*/
+#btn05 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn05:hover {
+	cursor: pointer;
+}
+#btn05:active{
+	background: blue	;
+	}
+#btn15 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 60%
+}
+#btn15:hover {
+	cursor: pointer;
+}	
+#btn15:active{
+	background: blue	;
+	}
+
+#btn25 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn25:hover {
+	cursor: pointer;
+}
+#btn25:active{
+	background: blue;
+	}
+
+#btn35 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 70%;
+	left: 60%
+}
+#btn35:hover {
+	cursor: pointer;
+}
+#btn35:active{
+	background: blue	;
+	}
+	/*----------------mthq6-------------------*/
+#btn06 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn06:hover {
+	cursor: pointer;
+}
+#btn06:active{
+	background: blue	;
+	}
+#btn16 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 60%
+}
+#btn16:hover {
+	cursor: pointer;
+}	
+#btn16:active{
+	background: blue	;
+	}
+
+#btn26 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn26:hover {
+	cursor: pointer;
+}
+#btn26:active{
+	background: blue;
+	}
+
+#btn36 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 70%;
+	left: 60%
+}
+#btn36:hover {
+	cursor: pointer;
+}
+#btn36:active{
+	background: blue	;
+	}
+	/*----------------mthq7-------------------*/
+#btn07 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn07:hover {
+	cursor: pointer;
+}
+#btn07:active{
+	background: blue	;
+	}
+
+
+#btn27 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn27:hover {
+	cursor: pointer;
+}
+#btn27:active{
+	background: blue;
+	}
+
+/*----------------mthq8-------------------*/
+#btn08 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn08:hover {
+	cursor: pointer;
+}
+#btn08:active{
+	background: blue	;
+	}
+#btn18 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 60%
+}
+#btn18:hover {
+	cursor: pointer;
+}	
+#btn18:active{
+	background: blue	;
+	}
+
+#btn28 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn28:hover {
+	cursor: pointer;
+}
+#btn28:active{
+	background: blue;
+	}
+
+#btn38 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 70%;
+	left: 60%
+}
+#btn38:hover {
+	cursor: pointer;
+}
+#btn38:active{
+	background: blue	;
+	}
+
+	/*----------------mthq9-------------------*/
+#btn09 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn09:hover {
+	cursor: pointer;
+}
+#btn09:active{
+	background: blue	;
+	}
+
+
+#btn29 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn29:hover {
+	cursor: pointer;
+}
+#btn29:active{
+	background: blue;
+	}
+
+
+	/*----------------mthq10-------------------*/
+#btn010 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn010:hover {
+	cursor: pointer;
+}
+#btn010:active{
+	background: blue	;
+	}
+#btn110 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 60%
+}
+#btn110:hover {
+	cursor: pointer;
+}	
+#btn110:active{
+	background: blue	;
+	}
+
+#btn210 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn210:hover {
+	cursor: pointer;
+}
+#btn210:active{
+	background: blue;
+	}
+
+#btn310 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 70%;
+	left: 60%
+}
+#btn310:hover {
+	cursor: pointer;
+}
+#btn310:active{
+	background: blue	;
+	}
+
+	/*----------------mthq11-------------------*/
+#btn011 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn011:hover {
+	cursor: pointer;
+}
+#btn011:active{
+	background: blue	;
+	}
+
+
+#btn211 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn211:hover {
+	cursor: pointer;
+}
+#btn211:active{
+	background: blue;
+	}
+
+
+#btn4 {
+
+	background: white;
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 90%;
+	left: 90%;
+	display: none;
+}
+#btn4:hover {
+	cursor: pointer;
+}
+#btn4:active{
+	background: #6a5acd	;
+}
+
+#btn40 {
+	background: white;
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 90%;
+	left: 90%;
+	display: none;
+}
+#btn40:hover {
+	cursor: pointer;
+}
+#btn40:active{
+	background: #6a5acd	;
+}
+#btn41 {
+	background: white;
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 90%;
+	left: 90%;
+	display: none;
+}
+#btn41:hover {
+	cursor: pointer;
+}
+#btn41:active{
+	background: #6a5acd	;
+	}
+#btn42 {
+	background: white;
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 90%;
+	left: 90%;
+	display: none;
+}
+#btn42:hover {
+	cursor: pointer;
+}
+#btn42:active{
+	background: #6a5acd	;
+}
+#sub {
+	background: white;
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 90%;
+	left: 70%;
+}
+#sub:hover {
+	cursor: pointer;
+}
+#sub:active{
+	background: #6a5acd	;
+}
+#btn5 {
+	background: white;
+	width: 100px;
+	height: 45px;
+	position: absolute;
+	top: 90%;
+	left: 2%;
+}
+#btn5:hover {
+	cursor: pointer;
+}
+#btn5:active{
+	background: #6a5acd	;
+}
+#myField {
+	background: white;
+	width: 250px;
+	height: 50px;
+	position: absolute;
+	top: 80%;
+	left: 40%;
+	border-radius: 30px;
+	text-align: 60%;
+}
+#myField:hover {
+	cursor: text;
+}	
+
+
+#mt12 {
+	background: white;
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	top: 90%;
+	left: 70%;
+}
+#mt12:hover {
+	cursor: pointer;
+}
+#mt12:active{
+	background: #6a5acd	;
+}
+
+/************************modification khadija exam codage****************************/
+.choice{
+	float: right;
+	margin-top: 15%;
+	width: 40%;
+	color: #fff;
+}
+table{
+	border-collapse: collapse;
+}
+td{
+	border: 2px solid black;
+	padding: 5px;
+}

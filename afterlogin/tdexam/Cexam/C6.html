@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cloud computing</title>
+    <link rel="stylesheet" type="text/css" href="styleC.css">
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="menu">
+        <ul class="rmenu">
+            <li><a class="menu-item" href="#">About cloud</a></li>
+            <li><a class="menu-item" href="#">cours</a></li>
+            <li><a class="menu-item" href="file:///D:/website%20development/td.html">travaux dirigés</a></li>
+            <li><a class="menu-item" href="#">exam</a></li>
+            <li><a class="menu-reg" href="file:///D:/website%20development/register.html">register</a></li>
+            <li><a class="menu-log" href="file:///D:/website%20development/login.html">login</a></li>
+        </ul>
+    </nav>
+    <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="type to search">
+        <a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+    </div>
+    <div class="cour">
+        <a class="text" href="#">Langage C</a>
+        <a class="book-bt" href="#"><i class="fa fa-book" aria-hidden="true"></i></a>
+    </div>
+    <div class="question">
+         <br>
+        Completez ce programme C qui permet de  calculer S1, S2, S3 et S4 tel que:<br>
+        S1 = 1 + 1/2  + 1/3 + ... + 1/N<br>
+        S2 = 1 + 1/2  + 1/4 + ... + 1/(2N)<br>
+        S3 = 1 - 1/2  + 1/4 - ... + 1/(2N)<br>
+        S4 = 1 +x  + x^2 + ... + x^N<br>
+    </div>
+
+   <div>
+        <div class="reponse">
+#include < stdio.h> #include < math.h><br>
+int main(void)<br>
+{   int N, sign, i; float S1 = 1, S2 = 1, S3 = 1, S4 = 1, x;<br>
+    printf("Saisir N - ");<br>
+    scanf("<input id="myField0" type="text">", &N);<br>
+    for (int i = 2; i < N + 1; i++)  S1 += 1.0 / i;<br>
+    printf("la somme S1 est %f\n", S1);<br>
+    for (i = 2; i < 2 * N + 1; i += 2) {  S2 += 1.0 / i;  }<br>
+    printf("\nla somme S2 est %f\n", S2);<br>
+    sign = -1.0;<br>
+    for (i = 2; i < 2 * N + 1; i += 2)<br>
+    {    S3 += <input id="myField1" type="text">;<br>
+        sign *= (<input id="myField2" type="text">) ; }<br>
+    printf("la somme S3 est %f \n", S3);<br>
+    printf("Saisir x - ");<br>
+    scanf("%f", &x);<br>
+    for (i = 1; i < N + 1; i++) S4 += pow(x, i);<br>
+    printf("la somme S4 est %f \n", S4); return 0;}<br>
+        </div>
+        <div>
+           <input id="btn6" type="submit" value="OK" onclick="C6()">
+           <a id="btn7" href="https://rextester.com/WMTT34670" target="_blank">Try it Urself </a>
+        </div>
+    </div>
+<script type="text/javascript" src="Cjs.js"></script>
+</body>
+</html>

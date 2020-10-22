@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cloud computing</title>
+    <link rel="stylesheet" type="text/css" href="styleC.css">
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="menu">
+        <ul class="rmenu">
+            <li><a class="menu-item" href="#">About cloud</a></li>
+            <li><a class="menu-item" href="#">cours</a></li>
+            <li><a class="menu-item" href="file:///D:/website%20development/td.html">travaux dirigés</a></li>
+            <li><a class="menu-item" href="#">exam</a></li>
+            <li><a class="menu-reg" href="file:///D:/website%20development/register.html">register</a></li>
+            <li><a class="menu-log" href="file:///D:/website%20development/login.html">login</a></li>
+        </ul>
+    </nav>
+    <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="type to search">
+        <a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+    </div>
+    <div class="cour">
+        <a class="text" href="#">Langage C</a>
+        <a class="book-bt" href="#"><i class="fa fa-book" aria-hidden="true"></i></a>
+    </div>
+    <div class="question">
+         <br>
+        Completez ce programme C qui permet de  déterminer le Nième terme d'une suite (N est fourni par l'utilisateur) définie par :<br><br>
+         S0 = 2<br>
+         S1 = 3<br>
+         S2 = -2<br>
+         Sn = Sn-3+(-1)n * Sn-1<br>
+    </div>
+
+   <div>
+        <div class="reponse">
+#include < stdio.h><br>
+#include < math.h><br>
+int main(void)<br>
+{   int S0, S1, S2, Sn, N, i;<br>
+    printf("Saisir N - ");<br>
+    scanf("%d", &<input id="myField0" type="text">);<br>
+    S0 = 2; S1 = 3; S2 = -2;<br>
+    for (i = 3; i < N; i++)<br>
+    {   Sn = S0 + (pow((-1), i)) * <input id="myField1" type="text">;<br>
+        S0 = S1;<br>
+        S1 = S2;<br>
+        S2 = <input id="myField2" type="text">; }<br>
+    printf("le %d ième terme de la suite est %d", N, S2);<br>
+    return 0;}<br>
+        </div>
+        <div>
+           <input id="btn6" type="submit" value="OK" onclick="C7()">
+           <a id="btn7" href="https://rextester.com/OJYR75807" target="_blank">Try it Urself </a>
+        </div>
+    </div>
+<script type="text/javascript" src="Cjs.js"></script>
+</body>
+</html>

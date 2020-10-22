@@ -1,0 +1,280 @@
+body {
+	background-image: url("images/groupe-sociatex-cloud-computing-connaitre-risques-et-savoir-l-utiliser_0.jpg");
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+	opacity: 0.8;
+}
+/*-----menustyling------------*/
+.menu {
+	
+	top: 0;
+	margin: 0;
+	border-top: 0;
+	z-index: 100; 
+	box-shadow: -1px 8px 2px grey;
+	width: 70%;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,53,144,1) 43%, rgba(9,21,121,0.6727065826330532) 56%, rgba(0,212,255,1) 100%);
+	color: #fff;
+	height: 60px;
+	float: right;
+	transform: skewX(20deg);
+	opacity: 0.9;
+}
+.menu > ul  {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style-type: none;	
+	opacity: 1;
+}
+.menu > ul  >li {
+	float: left;
+	margin-right: 30px;
+	opacity: 1.5;
+}
+.menu-item {
+	display: inline-block;
+	color: #fff;
+	float: right;
+	padding: 10px 20px;
+	line-height: 30px;
+	text-decoration: none;
+	opacity: 1.5;
+	
+}
+.menu-reg {
+	display: inline-block;
+	color: #fff;
+	float: right;
+	padding: 10px 20px; 
+	line-height: 30px;
+	height: 30px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	margin-top: 6px;
+}	
+.menu-log {
+	display: inline-block;
+	color: #fff;
+	float: right;
+	padding: 10px 20px; 
+	line-height: 30px;
+	height: 30px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	margin-top: 6px;
+	border-radius: 10px;
+}
+.menu-log:hover {
+	background-color: red;
+	box-shadow: 5px 5px 5px #888;
+}
+.menu-reg:hover {
+	background-color: red;
+	color: black;
+	box-shadow: 5px 5px 5px #888;
+}
+.menu-item:hover {
+	background-color: blue;
+	color: #fff;
+}
+/*------searchbox-------*/
+.search-box {
+	position: absolute;
+	top: 12%;
+	left: 19%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	opacity: 0.8;
+}
+.search-box:hover > .search-txt {
+	width: 240px;
+	padding: 0 6px;
+	opacity: 1;
+}
+.search-box:hover > .search-btn {
+	background: black;
+	color: #ffebcd;
+	opacity: 1;
+}
+.search-btn{
+	color: #000080;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+
+}
+.search-txt {
+	border: none;
+	background:none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+/*---------------reseau de communication-----------*/
+.cour {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+
+}
+.book-bt{
+	color: white;	;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: black	;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+.text {
+	border: none;
+	background:none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 200px;
+	text-decoration: none;
+	overflow: hidden;
+}
+.prog {
+	position: absolute;
+	top: 90%;
+	left: 15%;
+	width: 70%;
+	color:#48d1cc; 
+}	
+ .question {
+ 	height: 10px;
+	color: white;
+	animation: an1 3s ;
+	position: absolute;
+	top: 53%;
+	left:10%;
+	font-size: 20px;
+}
+@keyframes an1 {
+	0%
+	{
+		transform: translateX(-100%);
+	}
+	100%
+	{
+		transform: translateX(0%);
+	}
+}
+/*----------------reponse-------------------*/
+#btn0 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 40%;
+	left: 60%
+}
+#btn0:hover {
+	cursor: pointer;
+}
+#btn0:focus {
+	background: red;
+}
+#btn1 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 60%
+}
+#btn1:hover {
+	cursor: pointer;
+}	
+#btn1:focus {
+	background: red;
+}
+#btn2 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 60%;
+	left: 60%
+}
+#btn2:hover {
+	cursor: pointer;
+}
+#btn2:focus {
+	background: green;
+}	
+#btn3 {
+	background: white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 70%;
+	left: 60%
+}
+#btn3:hover {
+	cursor: pointer;
+}
+#btn3:focus {
+	background: red;
+}
+#btn4 {
+	background: white;
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 90%;
+	left: 90%
+}
+#btn4:hover {
+	cursor: pointer;
+}
+#btn4:active{
+	background: #6a5acd	;
+}
+#btn5 {
+	background: white;
+	width: 100px;
+	height: 45px;
+	position: absolute;
+	top: 90%;
+	left: 2%
+}
+#btn5:hover {
+	cursor: pointer;
+}
+#btn5:active{
+	background: #6a5acd	;
+}

@@ -1,0 +1,335 @@
+body {
+	background-image: url("images/groupe-sociatex-cloud-computing-connaitre-risques-et-savoir-l-utiliser_0.jpg");
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+	opacity: 0.8;
+}
+/*-----menustyling------------*/
+.menu {
+	
+	top: 0;
+	margin: 0;
+	border-top: 0;
+	z-index: 100; 
+	box-shadow: -1px 8px 2px grey;
+	width: 70%;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,53,144,1) 43%, rgba(9,21,121,0.6727065826330532) 56%, rgba(0,212,255,1) 100%);
+	color: #fff;
+	height: 60px;
+	float: right;
+	transform: skewX(20deg);
+	opacity: 0.9;
+}
+.menu > ul  {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style-type: none;	
+	opacity: 1;
+}
+.menu > ul  >li {
+	float: left;
+	margin-right: 30px;
+	opacity: 1.5;
+}
+.menu-item {
+	display: inline-block;
+	color: #fff;
+	float: right;
+	padding: 10px 20px;
+	line-height: 40px;
+	text-decoration: none;
+	opacity: 1.5;
+	
+}	
+.menu-item:hover {
+	background-color: blue;
+	color: #fff;
+}
+/*----------------styling sub----------*/
+.sub-content {
+	position: absolute;
+	top:60px;
+	overflow: hidden;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,53,144,1) 43%, rgba(9,21,121,0.6727065826330532) 56%, rgba(0,212,255,1) 100%);
+	max-height: 0;
+}
+.sub-content a {
+	color: #fff;
+	text-decoration:none;
+}
+.sub-drop {
+	padding: 0;
+}
+.sub-drop ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.sub-drop ul li a {
+	display: inline-block;
+	padding: 10px 20px;
+}
+.sub-drop ul li :hover {
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,21,121,0.8015581232492998) 68%, rgba(129,96,230,0.11528361344537819) 81%, rgba(0,212,255,1) 100%);
+	color: #fff;
+	text-shadow: 1px 1px;
+}
+.menu ul li:hover .sub-content {
+	max-height: 400px;
+	overflow: visible;
+	transition: max-height 0.3s ease-in;
+	-mobikit-transition: max-height 0.3s ease-in;
+	-moz-transition: max-height 0.3s ease-in;
+}
+.avatar {
+	font-size: 30px;
+	float: left;
+}
+/*---------choosecourse------*/
+#submit1 {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	padding: 30px 60px;
+	font-size: 30px;
+	text-decoration: none;
+	box-shadow: 0 20px 50px rgba(0,0,0,.5);
+	width: 270px;
+	text-align: center;
+	overflow: hidden;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,53,144,1) 43%, rgba(9,21,121,0.6727065826330532) 56%, rgba(0,212,255,1) 100%);
+	opacity: 0.8;
+	
+}
+#submit1:before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	width: 50%;
+	background: rgba(255,255,255,0.05);
+}
+#submit1 span:nth-child(1){
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: white;
+	animation: animate1 2s linear infinite;
+}
+@keyframes animate1 {
+	0%
+	{
+		transform: translateX(-100%);
+	}
+	100%
+	{
+		transform: translateX(100%);
+	}
+}
+#submit1 span:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: white;
+	animation: animate2 2s linear infinite;
+	animation-delay: 1s;
+}	
+@keyframes animate2 {
+	0%
+	{
+		transform: translateY(-100%);
+	}
+	100%
+	{
+		transform: translateY(100%);
+	}
+}
+#submit1 span:nth-child(3){
+	position: absolute;
+	right: 0;
+	bottom:	0;
+	width: 100%;
+	height: 2px;
+	background: white;
+	animation: animate3 2s linear infinite;
+}
+@keyframes animate3 {
+	0%
+	{
+		transform: translateX(100%);
+	}
+	100%
+	{
+		transform: translateX(-100%);
+	}
+}
+#submit1 span:nth-child(4){
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: white;
+	animation: animate4 2s linear infinite ;
+	animation-delay: 1s;
+}
+@keyframes animate4 {
+	0%
+	{
+		transform: translateY(100%);
+	}
+	100%
+	{
+		transform: translateY(-100%);
+	}
+}
+/*-----cr-----*/
+.cour1 {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour1:hover > .txte {
+	width: 180px;
+	padding: 0 6px;
+}	
+.cour1:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
+.cour2 {
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour2:hover > .txte {
+	width: 80px;
+	padding: 0 6px;
+}	
+.cour2:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
+.cour3 {
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour3:hover > .txte {
+	width: 260px;
+	padding: 0 6px;
+}	
+.cour3:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
+.cour4 {
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour4:hover > .txte {
+	width: 170px;
+	padding: 0 6px;
+}	
+.cour4:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
+.cour5 {
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour5:hover > .txte {
+	width: 260px;
+	padding: 0 6px;
+}	
+.cour5:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
+.book-btn{
+	color: #000080	;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white	;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+.txte {
+	border: none;
+	background:none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+	text-decoration: none;
+	overflow: hidden;
+}
+.cour6 {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	background-color: white	;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.cour6:hover > .txte {
+	width: 180px;
+	padding: 0 6px;
+}	
+.cour6:hover > .book-btn {
+	background: black;
+	color: #ffebcd;
+}
